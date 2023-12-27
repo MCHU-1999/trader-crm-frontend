@@ -1,0 +1,20 @@
+.App {
+  background-color: #F2F2F2;
+}
+
+:root {
+  --highlight-color-1: #24936E;
+  --highlight-color-2: #79E0BE;
+  --highlight-color-3: #D4FFE3;
+  --highlight-green: #55B86F;
+  --highlight-red: #D76B63;
+  --black-1: #000000;
+  --black-2: #333333;
+  --black-3: #666666;
+  --black-4: #999999;
+  --black-5: #CCCCCC;
+  --black-6: #F2F2F2;
+}
+::-webkit-scrollbar {
+  display: none;
+}

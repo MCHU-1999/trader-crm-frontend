@@ -1,0 +1,106 @@
+.container {
+  padding-top: 20px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+}
+
+.chartContainer {
+  width: 902px;
+  display: flex;
+  margin-bottom: 100px;
+  flex-direction: column;
+  padding: 16px 40px 40px 40px;
+  gap: 16px;
+  text-align: left;
+  font-weight: 400;
+  
+  background: #FFFFFF;
+  border-radius: 20px;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.1));
+}
+
+.mockupImg{
+  width: 40%;
+}
+
+.performance {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 12px;
+}
+
+Form {
+  width: 400px;
+}
+
+p {
+  margin: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  color: #999999;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+canvas {
+  max-width: 600px;
+  max-height: 200px;
+}
+
+@media only screen and (max-width: 980px) and (min-width: 600px) {
+  .container {
+    gap: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    // background: linear-gradient(255.82deg, #ffffff 0%, #eeeeee 100%);
+  }
+  .performance {
+    width: 100%;
+  }
+  canvas {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  .mockupImg{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-top: 0px;
+    width: calc(100vw);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    flex-wrap: wrap;
+  }
+  .chartContainer {
+    width: calc(100vw);
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0));
+  }
+  .performance {
+    width: 100%;
+  }
+  canvas {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  .mockupImg{
+    width: 100%;
+  }
+}
